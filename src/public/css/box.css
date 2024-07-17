@@ -28,7 +28,8 @@
 .box-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 30px; }
+  column-gap: 30px;
+  margin: 40px 0 40px 0; }
 
 .box-items {
   display: flex;

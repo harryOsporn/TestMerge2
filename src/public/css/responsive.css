@@ -84,7 +84,22 @@
     align-items: center;
     justify-content: center; }
   .card-text {
-    padding: 5px 10px; } }
+    padding: 5px 10px; }
+  .about-us-container {
+    flex-direction: column; }
+  .about-us-info {
+    padding: 0 0 20px 0 !important; }
+  .box-container {
+    grid-template-columns: 1fr !important; }
+  .about-tea-container {
+    flex-direction: column; }
+  .about-tea-container .col-1 {
+    margin: 0;
+    padding: 0;
+    display: flex; }
+  .about-tea-container .col-2 {
+    margin: 0;
+    padding: 0; } }
 
 @media only screen and (max-width: 1197px) {
   .container-cate {
